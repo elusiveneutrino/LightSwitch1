@@ -17,6 +17,8 @@
     "sdkVersion": "3",
     "shortName": "LightSwitch1",
     "targetPlatforms": [
+        "aplite",
+        "basalt",
         "chalk"
     ],
     "uuid": "9b52a57a-212c-4995-857a-c66801be5531",

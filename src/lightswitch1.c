@@ -47,9 +47,10 @@ static void inbox_received_callback(DictionaryIterator *iterator, void *context)
   // Get the first pair
   Tuple *data = dict_find(iterator, KEY_POWER_STATUS);
   if (data) {
-    snprintf(s_buffer, sizeof(s_buffer), "Received '%s'", data->value->cstring);
+    //snprintf(s_buffer, sizeof(s_buffer), "Received '%s'", data->value->cstring);
+    snprintf(s_buffer, sizeof(s_buffer), "Received '%d'", data->value->int8);
     text_layer_set_text(s_output_layer, s_buffer);
-	
+	  
 	char tmpval[64];
 	snprintf(tmpval, sizeof(tmpval), "RCVD: '%s'", data->value->cstring);
 	APP_LOG(APP_LOG_LEVEL_INFO, tmpval);
