@@ -1,0 +1,27 @@
+{
+    "appKeys": {
+        "KEY_POWER_SET": 0,
+        "KEY_POWER_STATUS": 1,
+        "KEY_STATUS_REQUEST": 2
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "elusiveneutrino@gmail.com",
+    "enableMultiJS": true,
+    "longName": "LightSwitch1",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "LightSwitch1",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "9b52a57a-212c-4995-857a-c66801be5531",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
